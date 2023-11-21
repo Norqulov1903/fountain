@@ -1,0 +1,201 @@
+footer{
+    width: 100%;
+    /* height: 650px; */
+    margin: auto;
+    background-color: black;
+    padding-bottom: 60px;
+}
+.footer__inner{
+    max-width: 1240px;
+    width: 100%;
+    /* height: 450px; */
+    margin: auto;
+    margin-bottom: 30px;
+   
+}
+.footer__inner__card{
+    max-width: 1240px;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footer__inner__card__title{
+    max-width: 296px;
+    width: 100%;
+    height: auto;
+}
+.footer__inner__card__title h4{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 32.8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.footer__inner__card__title p{
+    color: #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1px;
+text-transform: lowercase;
+margin-top: 30px;
+}
+.footer__inner__icon{
+    margin-top: 31px;
+
+}
+.footer__inner__icon a{
+    text-decoration: none;
+    
+}
+
+.footer__inner__icon a i{
+    font-size: 25px;
+    margin-left: 15px;
+    transition: all 0.3s;
+    color: #F77E23;
+}
+.footer__inner__icon a i:hover{
+    color: #333;
+}
+.footer__inner__card__nav{
+    max-width: 800px;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__inner__card__nav nav{
+    color: white;
+}
+.footer__inner__card__nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+.footer__inner__card__nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; 
+    text-transform: capitalize;
+    transition: all 0.3s;
+}
+.footer__inner__card__nav ul li a:hover{
+    color: #F77E23;
+}
+
+.footer__inner__input{
+    max-width: 545px;
+    width: 100%;
+    height: 52px;
+    margin: auto;
+    margin-top: 60px;
+
+}
+.footer__inner__input h4{
+    color: #FFF;
+font-family: Poppins;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-align: center;
+}
+.footer__inner__input__card{
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    
+}
+.footer__inner__input__card input{
+    max-width: 420px;
+    width: 100%;
+    height: 52px;
+    
+    padding-left: 20px;
+}
+.footer__inner__input__card input::placeholder{
+    color: #3BD27B;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border: none;
+outline: none;
+}
+.footer__inner__input__card button{
+   width: 126px;
+    height: 52px;
+    border: none;
+    background: #F77E23;
+    color: #FFF;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+cursor: pointer;
+transition: all 0.3s;
+font-weight: 400;
+line-height: normal;
+}
+.footer__inner__input__card button:hover{
+    color: #F77E23;
+    background-color: white;
+    border: 2px solid #F77E23;
+}
+
+
+
+
+@media screen and (max-width: 1280px) {
+   
+  }
+  
+  @media screen and (max-width: 1024px) {
+  .footer__inner__card{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: end;
+    justify-content: left;
+
+  }
+  .footer__inner__card__title{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .footer__inner__card__nav{
+    height: auto;
+  }
+  .footer__inner__card{
+    height: auto;
+  }
+  }
+  
+  @media screen and (max-width: 768px) {
+   
+  }
+  @media screen and (max-width: 686px) {
+    .footer__inner__card__nav{
+        flex-wrap: wrap;
+        margin-top: 15px;
+    }
+  }
+  @media screen and (max-width: 420px) {
+    .footer__inner__input h4{
+        font-size: 18px;
+    }
+    .footer__inner__card__nav{
+       
+        margin-top: 15px;
+    }
+  }

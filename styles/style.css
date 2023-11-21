@@ -1,0 +1,54 @@
+@import url("./_header.css");
+@import url("./_main.css");
+@import url("./_footer.css");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 9000px;
+}
+.container {
+    max-width: 1240px;
+    width: 100%;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1280px) {
+    .container {
+      max-width: 1024px;
+    }
+  }
+  
+  @media screen and (max-width: 1024px) {
+    .container {
+      max-width: 768px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container {
+      max-width: 640px;
+    }
+  }
